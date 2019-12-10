@@ -1,6 +1,6 @@
 # Docker with Spring Boot and Mysql example
 ## Running a MySql docker instance in detach mode from the official repository on docker hub
-#### docker run --detach --name=pet-mysql --env="MYSQL_ROOT_PASSWORD=mypassword" --env="MYSQL_DATABASE=db_pet"  mysql
+##### docker run --detach --name=pet-mysql --env="MYSQL_ROOT_PASSWORD=mypassword" --env="MYSQL_DATABASE=db_pet"  mysql
 I have put an alias pet-mysql for this mysql container, also I have put some environmental variables for root password and initialized a new database named db_pet
 Check logs if the mysql instance is up and running
 #### docker logs pet-mysql
